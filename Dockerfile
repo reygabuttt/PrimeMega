@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/PrimeMega 
-RUN git clone -b shiken https://github.com/Tonic990/PrimeMega /root/PrimeMega
+RUN git clone -b shiken https://github.com/reygabuttt/PrimeMega /root/PrimeMega
 WORKDIR /root/PrimeMega
 
 #Copy config file to /root/PrimeMega/PrimeMega
